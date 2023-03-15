@@ -44,6 +44,8 @@
       <v-col cols=12 class="mt-16">
         <p class="text-center cardtitle-quote mb-1">"Dicono che i soldi non possono comprare la felicità...ma ti permettono di regalarla!"</p>
         <p class="text-center cardtitle-ramimalek mb-1">Rami Malek - Freddy Mercury</p>
+        <v-img src="@/assets/img/gift.png" contain class="ma-10"
+          :style="$vuetify.breakpoint.smAndUp ? 'max-height:150px;;' : 'max-height:100px'" />
         <p class="text-center cardtitle mb-1">Se anche tu vuoi contribuire a regalarci un po' di felicità:</p>
         <p class="text-center cardtitle mb-1">Iban: IT76T306988570100000001038</p>
       </v-col>
