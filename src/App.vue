@@ -34,14 +34,7 @@ export default {
 
   components: {
     Front: () => import("./components/Front"),
-    Information: () => import("./components/Information"),
-    SaveTheDate: () => import("./components/SaveTheDate"),
-    Partecipation: () => import("./components/Partecipation"),
-    SliderComments: () => import("./components/SliderComments"),
-    Us: () => import("./components/Us"),
-    HelpUs: () => import("./components/HelpUs"),
-    UsefulInformation: () => import("./components/UsefulInformation"),
-    Contacts: () => import("./components/Contacts"),
+    Information: () => import("./components/Information")
   },
 
   data: () => ({

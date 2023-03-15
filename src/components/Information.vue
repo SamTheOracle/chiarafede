@@ -43,35 +43,16 @@
           :style="$vuetify.breakpoint.smAndUp?'max-height:150px;;':'max-height:100px'"
         />
       </v-col>
+      <v-col cols=12>
+        <p class="text-center cardtitle mb-1">è gradita gentile conferma entro il 12 maggio 2023 al +39 3661167291 o +39 3388461341</p>
+      </v-col>
+     
     </v-row>
   
   </v-container>
 </template>
 
 <script>
-const SaveTheDate = () => import('./SaveTheDate')
-const Celebration = () => import('./Celebration')
-export default {
-  name: 'Information',
-  components: {
-    // eslint-disable-next-line vue/no-unused-components
-    SaveTheDate,
-    Celebration
-  },
-  data: () => {
-    return {
-      swapLanguage: false
-    }
-  },
-  props: {
-    language: String
-  },
-  watch: {
-    language: function () {
-      this.swapLanguage = !this.swapLanguage
-    }
-  }
-}
 </script>
 
 <style>
