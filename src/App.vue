@@ -149,6 +149,18 @@ export default {
   white-space: pre-line;
 }
 
+.cardtitle-quote {
+  font-family: "GlassAntiqua";
+  font-size: 28px !important;
+  white-space: pre-line;
+}
+
+.cardtitle-ramimalek {
+    font-size: 18px !important;
+    font-family: "GlassAntiqua";
+  }
+
+
 .descr {
   /*   font-family: "Open Sans", cursive;
  */
@@ -198,8 +210,12 @@ export default {
 @font-face {
   font-family: "BodoniFLF";
   src: url("assets/font/bodoniflf/BodoniFLF Medium Italic.ttf") format("truetype");
-  /* font-family: "GlassAntiqua";
-  src: url("assets/font/Glass_Antiqua/GlassAntiqua-Regular.ttf") format("truetype"); */
+
+}
+
+@font-face {
+  font-family: "GlassAntiqua";
+  src: url("assets/font/Glass_Antiqua/GlassAntiqua-Regular.ttf") format("truetype");
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
@@ -226,8 +242,13 @@ export default {
   .cardtitle {
     font-size: 20px !important;
   }
+
   .cardtitle-contacts {
     font-size: 16px !important;
+  }
+
+  .cardtitle-quote {
+    font-size: 25px !important;
   }
 
   .nicetitle {
@@ -257,5 +278,4 @@ export default {
   .nice {
     font-size: 30px !important;
   }
-}
-</style>
+}</style>
