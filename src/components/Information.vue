@@ -21,7 +21,7 @@
         <v-img src="@/assets/img/heart.png" contain
           :style="$vuetify.breakpoint.smAndUp ? 'max-height:150px;;' : 'max-height:100px'" />
       </v-col>
-      <v-col cols=12>
+      <v-col cols=12 class="mt-16">
         <p class="text-center cardtitle mb-1">Dopo la cerimonia saremo lieti di festeggiare insieme presso</p>
       </v-col>
       <v-col cols="12">
@@ -42,7 +42,7 @@
         <v-img src="@/assets/img/heart.png" contain
           :style="$vuetify.breakpoint.smAndUp ? 'max-height:150px;;' : 'max-height:100px'" />
       </v-col>
-      <v-col>
+      <v-col cols=12 class="mt-16">
         <p class="text-center cardtitle-quote mb-1">"Dicono che i soldi non possono comprare la felicità...ma ti permettono di regalarla!"</p>
         <p class="text-center cardtitle-ramimalek mb-1">Rami Malek - Freddy Mercury</p>
         <p class="text-center cardtitle mb-1">Se anche tu vuoi contribuire a regalarci un po' di felicità:</p>
