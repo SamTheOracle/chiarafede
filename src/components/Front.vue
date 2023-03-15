@@ -1,9 +1,11 @@
 <template>
   <v-container fluid class="pa-0" id="main-container">
     <v-row align="start" justify="space-between" no-gutters style="height:100vh">
+      <v-col cols="12">
       <p class="nicetitle text-center pt-10 mb-0">Siamo felici di annunciare il nostro matrimonio</p>
 
-      <v-col>
+      </v-col>
+      <v-col cols=12>
 
         <v-img src="@/assets/img/chiarafede.png" contain style="max-height:60vh" v-on:load="onImageLoaded()"
           v-if="$vuetify.breakpoint.smAndUp" />
