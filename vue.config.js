@@ -3,12 +3,12 @@ module.exports = {
     'vuetify'
   ],
   pwa: {
-    themeColor: '#F7F9E4',
-    name: 'GiovannaeGiacomo',
+    themeColor: '#FFFFF',
+    name: 'ChiaraEFede',
     manifestOptions: {
       start_url: '/',
-      background_color: '#F7F9E4',
-      short_name: 'GeG',
+      background_color: '#FFFFF',
+      short_name: 'CeF',
       icons: [
         {
           src: './img/icons/android-chrome-512x512.png',
