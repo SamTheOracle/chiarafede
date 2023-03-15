@@ -39,7 +39,7 @@
       </v-col>
       <v-col cols=12>
         <v-img src="@/assets/img/phone-book.png" contain class="ma-10"
-          :style="$vuetify.breakpoint.smAndUp ? 'max-height:150px;;' : 'max-height:100px'" />
+          :style="$vuetify.breakpoint.smAndUp ? 'max-height:150px;;' : 'max-height:95px'" />
         <p class="text-center cardtitle-contacts mb-1">è gradita gentile conferma entro il 12 maggio 2023 al +39
           3661167291 o +39 3388461341</p>
       </v-col>
