@@ -44,7 +44,7 @@
         />
       </v-col>
       <v-col cols=12>
-        <p class="text-center cardtitle mb-1">è gradita gentile conferma entro il 12 maggio 2023 al +39 3661167291 o +39 3388461341</p>
+        <p class="text-center cardtitle-contacts mb-1">è gradita gentile conferma entro il 12 maggio 2023 al +39 3661167291 o +39 3388461341</p>
       </v-col>
      
     </v-row>
