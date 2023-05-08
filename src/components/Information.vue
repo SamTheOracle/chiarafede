@@ -58,7 +58,7 @@
         <v-img src="@/assets/img/gift-box.png" contain class="ma-10"
           :style="$vuetify.breakpoint.smAndUp ? 'max-height:150px;;' : 'max-height:100px'" />
         <p class="text-center cardtitle mb-1">Se anche tu vuoi contribuire a regalarci un po' di felicità:</p>
-        <p class="text-center cardtitle mb-1">Iban: IT76T306988570100000001038</p>
+        <p class="text-center cardtitle mb-1">Iban: IT76T0306968570100000001038</p>
       </v-col>
     </v-row>
 
